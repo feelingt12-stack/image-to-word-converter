@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Image to Word Converter</title>
+
+    <style>
+
+        body {
+            background: #f2f6ff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 400px;
+            width: 90%;
+            margin: 60px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 22px;
+        }
+
+        p {
+            color: #555;
+            font-size: 14px;
+        }
+
+        input[type="file"] {
+            width: 100%;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+
+        button {
+            width: 100%;
+            background: #4a6cf7;
+            color: white;
+            border: none;
+            padding: 14px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #3a5ce5;
+        }
+
+        .footer {
+            margin-top: 15px;
+            font-size: 12px;
+            color: gray;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>📄 Image to Word</h2>
+
+        <p>Convert your image to Word easily</p>
+
+        <form method="POST" enctype="multipart/form-data">
+
+            <input type="file" name="image" accept="image/*" required>
+
+            <button type="submit">Convert</button>
+
+        </form>
+
+        <div class="footer">
+           BTcreates • Fast • Free 🚀
+        </div>
+
+    </div>
+
+</body>
+</html>
