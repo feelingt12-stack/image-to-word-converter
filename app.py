@@ -13,8 +13,6 @@ OUTPUT_FOLDER = "outputs"
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 app.config["OUTPUT_FOLDER"] = OUTPUT_FOLDER
 
-# Tesseract path (Windows)
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 
 @app.route("/", methods=["GET", "POST"])
